@@ -1,15 +1,21 @@
-//TODO!!!
-
 // 7 kyu
 
 /*
- *Write a reverseWords function that accepts a string a parameter, and reverses
- *each word in the string. Every space should stay, so you cannot use words from
- *Prelude.
+ *Complete the function that accepts a string parameter, and reverses each word
+ *    in the string. All spaces in the string should be retained.
+ *
+ * Examples:
+ *
+ * "This is an example!" ==> "sihT si na !elpmaxe"
+ *"double  spaces"      ==> "elbuod  secaps"
  */
 
 function reverseWords(str) {
-    return str.split('').reverse().join('');
+    let emptyArr = [];
+
+    str.split(' ').map( el => emptyArr.push(el.split('').reverse().join('') ));
+
+    return emptyArr.join(' ');
 }
 
 console.log(reverseWords('double  spaced  words'));

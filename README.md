@@ -1,13 +1,10 @@
-My answers to codewars.com's algorithm scripting problems. I'm using this site to practice javascript, problem solving, and learn from other programmers.
+[![Current Level](https://www.codewars.com/users/bradleyhop/badges/large)](https://www.codewars.com/users/bradleyhop)
 
-My current points and rating level:
-![Current Level])(https://www.codewars.com/users/bradleyhop/badges/large)
+My answers to codewars.com’s algorithm scripting problems. I’m using this site to practice javascript, problem solving, and learn from other programmers. The lower the number, the higher the ranking and the more challenging the problems are. Each problem is in a folder corresponding to its difficulty level.
 
 Here is my [profile](https://www.codewars.com/users/bradleyhop).
 
-The lower the number, the higher the ranking and the more challenging the problems are.
-
-Each file is formated as such:
+Each file is formatted as such:
 
 ```javascript
 // Difficulty level in kyu

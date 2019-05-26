@@ -1,5 +1,6 @@
+// 6kyu
+
 /*
- *6kyu
  *Is Prime
  *
  *Define a function isPrime/is_prime() that takes one integer argument and

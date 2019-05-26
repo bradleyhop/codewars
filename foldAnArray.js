@@ -29,7 +29,7 @@ function foldArray(array, runs) {
     let newArr = array.slice(0);
 
     for (let j  = 0; j < runs; j++) {
-    let max = Math.floor(newArr.length / 2);
+        let max = Math.floor(newArr.length / 2);
         for (let i = 0; i < max; i++) {
             newArr[i] += newArr.pop();
         }

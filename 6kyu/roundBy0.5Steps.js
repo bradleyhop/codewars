@@ -14,8 +14,8 @@
  */
 
 function solution(n) {
-  let rounded = Math.trunc(n);
-  let remainder = n - rounded;
+  let rounded = Math.trunc(n),
+      remainder = n - rounded;
 
   if (remainder > 0.25 && remainder < 0.75) {
     remainder = 0.5;
